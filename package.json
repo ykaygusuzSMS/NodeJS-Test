@@ -1,20 +1,26 @@
 {
-  "name": "NodeJS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Test.js",
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ykaygusuzSMS/NodeJS-Test.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ykaygusuzSMS/NodeJS-Test/issues"
-  },
-  "homepage": "https://github.com/ykaygusuzSMS/NodeJS-Test#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
