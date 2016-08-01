@@ -4,7 +4,7 @@
   "description": "",
   "main": "express-serv.js",
   "scripts": {
-	"start":"express-serv.js"
+	"start":"express-serv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
